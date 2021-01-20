@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="279.028" height="55" viewBox="0 0 279.028 42" id="breakingnews">
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #19b3ab;
+        }
+  
+        .cls-2 {
+          fill: #fff;
+          font-size: 12px;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+          font-weight: 600;
+        }
+      </style>
+    </defs>
+    <g id="breakingnews" data-name="breakingnews" transform="translate(4.806 -217)">
+      <path id="Path_1104" data-name="Path 1104" class="cls-1" d="M14167.519,10219v-41.985l279.028-.015-24.611,42Z" transform="translate(-14172.324 -9960.002)"/>
+      <text id="BREAKING_NEWS" data-name="Breaking News" class="cls-2" transform="translate(85 243)"><tspan x="0" y="0">Breaking News</tspan></text>
+    </g>
+</svg>

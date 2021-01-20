@@ -1,0 +1,135 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.breaking{
+    height: 50px !important;margin-top:75px;
+}
+
+.breaking-img{
+    height: 55px !important;
+}
+
+.p-breaking{
+    line-height: 60px;
+    p{
+        font-size: 12px !important;
+        a{
+            color: #C9D408 !important;
+            font-weight: 600;
+        }
+    }
+}
+
+.card-penyakit{
+    background-color: #0C958E !important;
+    
+    :hover{
+        background-color: #0E817B !important;
+        
+    }
+}
+
+
+@media (max-width: 770px) {
+    .p-breaking{
+        p{
+            font-size: 9px !important;
+        }
+    }
+}
+
+@media (max-width: 604px) {
+    .p-breaking{
+        p{
+            font-size: 8px !important;
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    .breaking{
+        height: 35px !important;margin-top:83px;
+    }
+
+    .breaking-img{
+        width: 200px !important;
+        height: 35px !important;
+    }
+    
+
+    .p-breaking{
+        line-height: 35px;
+        p{
+            font-size: 8px !important;
+        }
+    }
+}
+
+@media (max-width: 532px) { 
+    .breaking{
+        height: 30px !important;margin-top:83px;
+    }
+
+    .breaking-img{
+        width: 150px !important;
+        height: 35px !important;
+    }
+    
+
+    .p-breaking{
+        line-height: 30px;
+        p{
+            font-size: 8px !important;
+        }
+    }
+}
+
+@media (max-width: 474px) { 
+    .breaking{
+        height: 20px !important;margin-top:83px;
+    }
+
+    .breaking-img{
+        width: 100px !important;
+        height: 20px !important;
+    }
+    
+
+    .p-breaking{
+        line-height: 20px !important;
+        p{
+            font-size: 8px !important;
+        }
+    }
+}
+
+@media (max-width: 354px) { 
+    .brand-img{
+        width: 200px !important;
+        height: 60px !important;
+    }
+
+    .breaking{
+        height: 35px !important;margin-top:83px;
+    }
+
+    .p-breaking{
+        line-height: 40px;
+        p{
+            font-size: 8px !important;
+        }
+    }
+}
