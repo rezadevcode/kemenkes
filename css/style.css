@@ -1,9 +1,9 @@
-body {
-  background-color: #F0F0F0;
-}
-
 #navbarSupportedContent {
   margin-left: 100px !important;
+}
+#navbarSupportedContent li {
+  margin-right: 5px !important;
+  padding: 10px !important;
 }
 
 .nav-li-active {
@@ -38,6 +38,10 @@ li.li-nav:active a.nav-a-item:active {
 @media (max-width: 984px) {
   #navbarSupportedContent {
     margin-left: 0 !important;
+  }
+  #navbarSupportedContent li {
+    margin-right: 0 !important;
+    padding: 0 !important;
   }
 }
 @media (max-width: 456px) {
