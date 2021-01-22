@@ -34,6 +34,15 @@
   font-weight: 600;
 }
 
+.slider-jumbotron {
+  width: 50%;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  height: 64.7vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .card-penyakit {
   background-color: #0C958E !important;
   border-radius: 5px !important;
@@ -168,6 +177,11 @@
   }
   .carousel-news .item .card img {
     width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .card {
+    height: 100% !important;
   }
 }
 @media (max-width: 558px) {
