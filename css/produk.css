@@ -1,0 +1,17 @@
+ul.list-group .list-group-item {
+  border-bottom: 2px solid #E0DFDF !important;
+}
+ul.list-group .list-group-item a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+ul.list-group .list-group-item:hover {
+  border-bottom: 2px solid #C9D408 !important;
+}
+ul.list-group .list-group-item:hover a {
+  color: #0E817B;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=produk.css.map */

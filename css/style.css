@@ -1,3 +1,8 @@
+:root {
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 #navbarSupportedContent {
   margin-left: 100px !important;
 }
@@ -33,6 +38,37 @@ li.li-nav:active a.nav-a-item:active {
 .brand-img {
   width: 350px !important;
   height: 60px !important;
+}
+
+/*Menghilangkan liststyle pada tag list*/
+.breadcrumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Merubah tag list menjadi inline dan membuat hruf menjad capital*/
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li a {
+  color: #646464;
+}
+
+.breadcrumb li + li:before {
+  content: ">";
+  color: #646464;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.breadcrumb li:hover a:hover {
+  content: ">";
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 @media (max-width: 984px) {

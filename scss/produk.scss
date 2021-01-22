@@ -1,0 +1,18 @@
+ul.list-group{
+    .list-group-item{
+        border-bottom: 2px solid #E0DFDF !important;    
+        a{
+            color: #1A1A1A;
+            text-decoration: none;
+        }  
+    }
+    .list-group-item:hover{
+        border-bottom: 2px solid #C9D408 !important;
+        a{
+            color: #0E817B;
+            text-decoration: none;
+            font-weight: bolder;
+            
+        }  
+    }
+}
