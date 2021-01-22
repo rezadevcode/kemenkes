@@ -34,16 +34,6 @@
   font-weight: 600;
 }
 
-.slider-jumbotron {
-  width: 60%;
-  height: inherit;
-  position: absolute;
-  top: 0;
-  height: 64.7vh;
-  background-color: rgba(0, 0, 0, 0.7);
-  overflow: auto;
-}
-
 .card-penyakit {
   background-color: #0C958E !important;
   border-radius: 5px !important;
@@ -125,29 +115,19 @@
   }
 }
 @media (max-width: 770px) {
-  .breaking-img {
-    height: 9vh !important;
-    width: 200px !important;
-  }
-
   .p-breaking {
     margin-left: 15px !important;
   }
   .p-breaking p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 606px) {
-  .breaking-img {
-    height: 9vh !important;
-    width: 150px !important;
-  }
-
   .p-breaking {
     margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 576px) {
@@ -155,7 +135,7 @@
     margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 10px !important;
+    font-size: 12px !important;
   }
 
   .web-carousel {
@@ -174,42 +154,27 @@
   }
 }
 @media (max-width: 558px) {
-  .breaking-img {
-    height: 9vh !important;
-    width: 150px !important;
-  }
-
   .p-breaking {
     margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 516px) {
-  .breaking-img {
-    height: 9vh !important;
-    width: 150px !important;
-  }
-
   .p-breaking {
     margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 8px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 476px) {
-  .breaking-img {
-    height: 9vh !important;
-    width: 130px !important;
-  }
-
   .p-breaking {
     margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 8px !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 354px) {
