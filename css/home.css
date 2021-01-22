@@ -15,16 +15,16 @@
 }
 
 .breaking {
-  height: 50px !important;
-  margin-top: 75px;
+  height: 9vh !important;
+  overflow: auto;
 }
 
 .breaking-img {
-  height: 55px !important;
+  height: 9vh !important;
 }
 
 .p-breaking {
-  line-height: 60px;
+  line-height: 50px;
 }
 .p-breaking p {
   font-size: 12px !important;
@@ -116,13 +116,29 @@
   }
 }
 @media (max-width: 770px) {
+  .breaking-img {
+    height: 9vh !important;
+    width: 200px !important;
+  }
+
+  .p-breaking {
+    margin-left: 15px !important;
+  }
   .p-breaking p {
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
 }
-@media (max-width: 604px) {
+@media (max-width: 606px) {
+  .breaking-img {
+    height: 9vh !important;
+    width: 150px !important;
+  }
+
+  .p-breaking {
+    margin-left: 0 !important;
+  }
   .p-breaking p {
-    font-size: 8px !important;
+    font-size: 9px !important;
   }
 }
 @media (max-width: 595px) {
@@ -137,21 +153,11 @@
   }
 }
 @media (max-width: 576px) {
-  .breaking {
-    height: 35px !important;
-    margin-top: 83px;
-  }
-
-  .breaking-img {
-    width: 200px !important;
-    height: 35px !important;
-  }
-
   .p-breaking {
-    line-height: 35px;
+    margin-left: 0 !important;
   }
   .p-breaking p {
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
 
   .carousel-news .item {
@@ -164,37 +170,40 @@
     width: 100%;
   }
 }
-@media (max-width: 532px) {
-  .breaking {
-    height: 30px !important;
-    margin-top: 83px;
-  }
-
+@media (max-width: 558px) {
   .breaking-img {
+    height: 9vh !important;
     width: 150px !important;
-    height: 35px !important;
   }
 
   .p-breaking {
-    line-height: 30px;
+    margin-left: 0 !important;
+  }
+  .p-breaking p {
+    font-size: 9px !important;
+  }
+}
+@media (max-width: 516px) {
+  .breaking-img {
+    height: 9vh !important;
+    width: 150px !important;
+  }
+
+  .p-breaking {
+    margin-left: 0 !important;
   }
   .p-breaking p {
     font-size: 8px !important;
   }
 }
-@media (max-width: 474px) {
-  .breaking {
-    height: 20px !important;
-    margin-top: 83px;
-  }
-
+@media (max-width: 476px) {
   .breaking-img {
-    width: 100px !important;
-    height: 20px !important;
+    height: 9vh !important;
+    width: 130px !important;
   }
 
   .p-breaking {
-    line-height: 20px !important;
+    margin-left: 0 !important;
   }
   .p-breaking p {
     font-size: 8px !important;
@@ -214,18 +223,6 @@
   .brand-img {
     width: 200px !important;
     height: 60px !important;
-  }
-
-  .breaking {
-    height: 35px !important;
-    margin-top: 83px;
-  }
-
-  .p-breaking {
-    line-height: 40px;
-  }
-  .p-breaking p {
-    font-size: 8px !important;
   }
 
   .carousel-news .item {
