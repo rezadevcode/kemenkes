@@ -6,6 +6,7 @@ $(document).ready(function() {
         nav:true,
         items:5,
         autoWidth: false,
+        autoHeight: false,
         responsive:{
             0:{
                 items:1

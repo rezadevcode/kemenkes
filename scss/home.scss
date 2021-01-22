@@ -115,9 +115,8 @@
 
 .carousel-news{
     .item{
-        height: 65vh !important;
         .card{
-            height: 65vh !important;
+            
             box-shadow: 2px 2px 2px rgba(0,0,0, .4), -2px -2px 2px rgba(0,0,0, .4);
             img{
                 width: 100%;
@@ -126,18 +125,19 @@
     }
 }
 
+.web-carousel{
+    visibility: visible;
+    position: static;
+}
+
+.mobile-carousel{
+    visibility: hidden;
+    position: fixed;
+}
+
 @media (max-width: 991px) {
     .card{
         height: 50vh !important;
-    }
-
-    .carousel-news{
-        .item{
-            height: 90vh !important;
-            .card{
-                height: 90vh !important;
-            }
-        }
     }
 }
 
@@ -168,17 +168,17 @@
 }
 
 @media(max-width: 595px){
-    .carousel-news{
-        .item{
-            height: 125vh !important;
-            .card{
-                height: 125vh !important;
-                img{
-                    width: 100%;
-                }
-            }
-        }
-    }
+    // .carousel-news{
+    //     .item{
+    //         height: 125vh !important;
+    //         .card{
+    //             height: 125vh !important;
+    //             img{
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 @media (max-width: 576px) { 
@@ -189,17 +189,27 @@
         }
     }
 
-    .carousel-news{
-        .item{
-            height: 125vh !important;
-            .card{
-                height: 125vh !important;
-                img{
-                    width: 100%;
-                }
-            }
-        }
+    .web-carousel{
+        visibility: hidden;
+        position: fixed;
     }
+
+    .mobile-carousel{
+        visibility: visible;
+        position: static;
+    }
+
+    // .carousel-news{
+    //     .item{
+    //         height: 125vh !important;
+    //         .card{
+    //             height: 125vh !important;
+    //             img{
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 
     
 }
@@ -249,17 +259,17 @@
         }
     }
 
-    .carousel-news{
-        .item{
-            height: 100vh !important;
-            .card{
-                height: 100vh !important;
-                img{
-                    width: 100%;
-                }
-            }
-        }
-    }
+    // .carousel-news{
+    //     .item{
+    //         height: 100vh !important;
+    //         .card{
+    //             height: 100vh !important;
+    //             img{
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 @media (max-width: 354px) { 
@@ -267,15 +277,15 @@
         width: 200px !important;
         height: 60px !important;
     }
-    .carousel-news{
-        .item{
-            height: 75vh !important;
-            .card{
-                height: 75vh !important;
-                img{
-                    width: 100%;
-                }
-            }
-        }
-    }
+    // .carousel-news{
+    //     .item{
+    //         height: 75vh !important;
+    //         .card{
+    //             height: 75vh !important;
+    //             img{
+    //                 width: 100%;
+    //             }
+    //         }
+    //     }
+    // }
 }
