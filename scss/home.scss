@@ -35,12 +35,13 @@
 }
 
 .slider-jumbotron{
-    width: 70%;
+    width: 60%;
     height: inherit;
     position: absolute;
     top:0;
     height:  64.7vh;
     background-color: rgba(0,0,0, .5);
+    overflow: auto;
 }
 
 .card-penyakit{
