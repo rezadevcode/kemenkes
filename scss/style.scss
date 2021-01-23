@@ -17,7 +17,7 @@
   }
   
   /* Next & previous buttons */
-  .prev, .next {
+  .previous, .nexts {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -32,26 +32,26 @@
   }
   
   /* Position the "next button" to the right */
-  .next {
+  .nexts {
     position: absolute;
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+  .previous:hover, .nexts:hover {
     background-color: rgba(0,0,0,0.8);
     color: white;
   }
   
   /* The dot/bullet/indicator container */
-  .dot-container {
+  .ovals-container {
     text-align: center;
     padding: 20px;
   }
   
   /* The dots/bullets/indicators */
-  .dot {
+  .ovals {
     cursor: pointer;
     height: 5px;
     width: 30px;
@@ -67,7 +67,7 @@
 }
   
   /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
+  .active-slide, .ovals:hover {
     background-color: #C9D408 !important;
   }
   
