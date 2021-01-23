@@ -16,3 +16,18 @@ ul.list-group{
         }  
     }
 }
+
+@media (max-width : 924px){
+
+    .jumbotron-nyamuk{
+        background-position-y: -110px !important;
+    }
+
+}
+
+@media (max-width: 762px)
+{
+    .jumbotron-nyamuk{
+        background-position-y: 0 !important;
+    }
+}

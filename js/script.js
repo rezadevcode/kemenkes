@@ -8,7 +8,7 @@ $(document).ready(function() {
         autoWidth: false,
         autoHeight: false,
         autoplay:true,
-        autoplayTimeout:2500,
+        autoplayTimeout:3500,
         responsive:{
             0:{
                 items:1
