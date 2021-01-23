@@ -7,7 +7,8 @@ $(document).ready(function() {
         items:5,
         autoWidth: false,
         autoHeight: false,
-        dot: false,
+        autoplay:true,
+        autoplayTimeout:2500,
         responsive:{
             0:{
                 items:1
